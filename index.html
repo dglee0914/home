@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>우리 베이커리 - 회사 소개</title>
+  <style>
+    /* Reset & 기본 스타일 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+    header {
+      background-color: #f8b500;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      color: #fff;
+      font-size: 2em;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://source.unsplash.com/1600x900/?bakery') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    }
+    .hero h2 {
+      font-size: 3em;
+      text-align: center;
+      padding: 0 20px;
+    }
+    .content {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .content section {
+      margin-bottom: 40px;
+    }
+    .content h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #f8b500;
+      border-bottom: 2px solid #f8b500;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .content p {
+      margin-bottom: 15px;
+      font-size: 1em;
+      line-height: 1.8;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    @media (max-width: 768px) {
+      .hero h2 {
+        font-size: 2em;
+      }
+      nav ul {
+        flex-direction: column;
+      }
+      nav ul li {
+        margin: 5px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- 헤더 및 내비게이션 -->
+  <header>
+    <h1>우리 베이커리</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">회사 소개</a></li>
+        <li><a href="#mission">미션</a></li>
+        <li><a href="#products">메뉴</a></li>
+        <li><a href="#contact">연락처</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 히어로 섹션 -->
+  <section class="hero">
+    <h2>따뜻한 빵과 함께하는 행복한 하루</h2>
+  </section>
+
+  <!-- 본문 콘텐츠 -->
+  <div class="content">
+    <!-- 회사 소개 섹션 -->
+    <section id="about">
+      <h2>회사 소개</h2>
+      <p>
+        우리 베이커리는 신선한 재료와 정성 가득한 레시피로 매일 아침 최고의 빵을 제공합니다.
+        전통적인 제빵 기법과 현대적인 감각이 어우러져 고객님들께 따뜻한 미소와 최고의 품질을 선사합니다.
+      </p>
+      <p>
+        창업 이래, 우리는 지역 사회와 함께 성장하며 고객의 일상에 행복과 즐거움을 전하는 브랜드로 자리매김해왔습니다.
+      </p>
+    </section>
+
+    <!-- 미션 & 비전 섹션 -->
+    <section id="mission">
+      <h2>미션 &amp; 비전</h2>
+      <p><strong>미션:</strong> 매일 아침 신선하고 건강한 빵으로 고객의 삶에 활력을 불어넣습니다.</p>
+      <p>
+        <strong>비전:</strong> 지속 가능한 재료 사용과 혁신적인 레시피 개발로 글로벌 베이커리 브랜드로 도약하는 것입니다.
+      </p>
+    </section>
+
+    <!-- 메뉴 섹션 -->
+    <section id="products">
+      <h2>우리의 메뉴</h2>
+      <p>
+        다양한 종류의 빵, 케이크, 그리고 디저트를 만나보실 수 있습니다. 각 제품은 고객의 건강을 최우선으로 고려하여
+        자연 재료를 사용한 수제 빵으로 매일 신선하게 구워집니다.
+      </p>
+    </section>
+
+    <!-- 연락처 섹션 -->
+    <section id="contact">
+      <h2>연락처</h2>
+      <p><strong>주소:</strong> 서울특별시 예시구 예시동 123-45</p>
+      <p><strong>전화:</strong> 02-1234-5678</p>
+      <p><strong>이메일:</strong> info@ourbakery.co.kr</p>
+    </section>
+  </div>
+
+  <!-- 푸터 -->
+  <footer>
+    <p>&copy; 2025 우리 베이커리. All rights reserved.</p>
+  </footer>
+</body>
+</html>
